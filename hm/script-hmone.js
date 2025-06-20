@@ -1,0 +1,13 @@
+let age=16;
+console.log(typeof age);
+let name='Danil';
+console.log(typeof name);
+let isStudent=true;
+console.log(typeof isStudent);
+let myString='constructively/objectively';
+console.log(typeof myString);
+let myNumber=5;
+myNumber=myNumber+10;
+console.log(myNumber);
+let nyNull=null;
+console.log(typeof myNull);
