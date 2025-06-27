@@ -36,6 +36,7 @@
 // let a10=75+'kg';
 // alert(a10);
 
-let a='5';
-console.log(typeof Number(a));
-console.log(typeof a);
+// let a='5';
+// console.log(typeof Number(a));
+// console.log(typeof a);
+
