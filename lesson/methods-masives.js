@@ -47,13 +47,54 @@
 // console.log(a);
 
 
-const line = 'apple banana orange apple banana';
-const a=line.split(' ');
-const fruit = [];
-for(i=0; i<line.length; i++){
-    if(!fruit.includes(a[i])){
-        fruit.push(a[i]);
+// const line = 'apple banana orange apple banana';
+// const a=line.split(' ');
+// const fruit = [];
+// for(i=0; i<line.length; i++){
+//     if(!fruit.includes(a[i])){
+//         fruit.push(a[i]);
+//     }
+// }
+// console.log(fruit);
+
+
+// const array1 = [5, 10, 15, 20];
+// const array2 = [10, 20, 30];
+// let total=0;
+
+// let sum = array1.concat(array2);
+// for(let i=0; i<sum.length; i++){
+//     total+=sum[i];
+// }
+// console.log(total);
+
+
+// const message = 'Welcome to Ukraine!';
+// let letters = message.split('');
+// console.log(letters);
+// console.log(letters.indexOf('l'));
+// let join = letters.join('');
+// console.log(join);
+
+
+// const styles = [ 'Джаз', 'Блюз',];
+// styles.push('Рок-н-ролл');
+// console.log(styles);
+// styles.splice(1, 1, 'Класика');
+// console.log(styles);
+// let shift = styles.shift();
+// console.log(shift);
+// styles.unshift('Реп', 'Реггі');
+// console.log(styles);
+
+
+const a = 'JavaScript';
+let result = '';
+for(b of a){
+    if(b === b.toUpperCase()){
+        result += b.toLowerCase();
+    } else{
+        result += b.toUpperCase();
     }
 }
-console.log(fruit);
-
+console.log(result);
