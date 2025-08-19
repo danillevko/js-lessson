@@ -42,21 +42,55 @@
 // console.log(maxNum(array));
 
 
-let score = [100, 90, 84, 90];
-let sum = 0;
-function myAverageScore(...score){
-    for(let i=0; i<score.length; i++){
-     sum += score[i];
+// let score = [100, 90, 84, 90];
+// let sum = 0;
+// function myAverageScore(...score){
+//     for(let i=0; i<score.length; i++){
+//      sum += score[i];
+//     }
+//     let average = sum/score.length;
+//     if(average>=91){
+//         console.log('A');
+//     } else if(average>=81 && average<=90){
+//         console.log('B');
+//     } else if(average>=71 && average<=80){
+//         console.log('C');
+//     }else if(average<=70){
+//         console.log('D');
+//     }
+// }
+// myAverageScore(...score)
+
+
+// const logins = ['m4ngoDoge', 'k1widab3st', 'poly1scute', 'aj4xth3m4n'];
+// const loginToFind = 'm4ngoDoge';
+// function login(logins, loginToFind){
+//         if(logins.includes(loginToFind)){
+//             console.log(`Користувач ${loginToFind} знайдено.`);
+//         } else{
+//             console.log(`Користувач ${loginToFind} не знайдено.`);
+//         }
+// }
+// login(logins, 'k1widab3st');
+
+
+// const findSmallesNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// function smallNum(...findSmallesNumber){
+//     console.log(Math.min(...findSmallesNumber));
+// }
+// smallNum(...findSmallesNumber);
+
+
+let word = 'llkjhLKJHlkj';
+let newWord = '';
+function changeCase(word){
+    for(a of word){
+        if(a === a.toLowerCase()){
+            newWord += a.toUpperCase();
+        } else{
+            newWord += a.toLowerCase();
+        }
     }
-    let average = sum/score.length;
-    if(average>=91){
-        console.log('A');
-    } else if(average>=81 && average<=90){
-        console.log('B');
-    } else if(average>=71 && average<=80){
-        console.log('C');
-    }else if(average<=70){
-        console.log('D');
-    }
+    console.log(newWord);
 }
-myAverageScore(...score)
+changeCase('JavaScript');
