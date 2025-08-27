@@ -45,17 +45,17 @@
 // console.log(sumArray(arr, cb));
 
 
-const numbers = [1, 2, 3, 4];
-let sum=0;
-const numbersMult = (numbers, callback, a) => {
-    for(let i=0; i<numbers.length; i++){
-        console.log(callback(numbers[i], a));
-    }
-    return sum;
-}
+// const numbers = [1, 2, 3, 4];
+// let sum=0;
+// const numbersMult = (numbers, callback, a) => {
+//     for(let i=0; i<numbers.length; i++){
+//         console.log(callback(numbers[i], a));
+//     }
+//     return sum;
+// }
 
-const mult = (numbers, a) => {
-    return sum = a * numbers;
-}
+// const mult = (numbers, a) => {
+//     return sum = a * numbers;
+// }
 
-numbersMult(numbers, mult, 7);
+// numbersMult(numbers, mult, 7);
